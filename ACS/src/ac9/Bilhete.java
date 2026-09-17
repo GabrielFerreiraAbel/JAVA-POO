@@ -40,6 +40,4 @@ public class Bilhete {
 		System.out.println("Nº BILHETE: " + numeroIngresso + " | EVENTO: " + descricaoShow);
 	}
 	
-	
-	
 }

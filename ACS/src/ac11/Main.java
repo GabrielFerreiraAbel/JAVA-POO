@@ -96,12 +96,16 @@ public class Main {
 								if(p.getCodigo() == codigoProduto) {
 									
 									validar = false;
-									
-									System.out.println("Esse produto já existe.");
 									break;
 								}
 							}
 							
+						}
+						
+						if(validar == false) {
+							
+							System.out.println("Esse produto já existe.");
+							break;
 						}
 						
 						System.out.println("Nome do produto: ");
